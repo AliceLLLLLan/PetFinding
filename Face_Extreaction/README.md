@@ -7,6 +7,6 @@ In order for our detector to learn to detect objects in images, such as cat face
 
 To label images, we used Microsoft’s Visual Object Tagging Tool (VoTT). On VoTT, we drew bounding boxes around cat face objects. Once we have labeled all selected images and export them, we will have a folder including a CSV file called Annotations-export.csv, which contains file names and bounding box coordinates of the cat face objects. This is how we generate our ground truth data, which will be used for later image inference and evaluation.
 
-### code of face extraction using YOLOv3 has been shown in file: FaceExtraction&Evaluation.ipynb
+### code of face extraction using YOLOv3 has been shown in file: FaceExtraction&Evaluation.ipynb, and could also be viewed on Google Colab with the link: https://colab.research.google.com/drive/1SCXhiKfLK9-Uq0bdakmVT1i-IOsbYw1Z?usp=sharing
 
 ### outputs of the code are saved in /outputs folder.
